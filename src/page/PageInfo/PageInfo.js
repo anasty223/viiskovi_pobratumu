@@ -1,5 +1,5 @@
 import React from "react";
-import { HeaderInfo,ContainerInfo } from "./PageInfo.style.js";
+import { HeaderInfo,ContainerInfo,SpanInfo,HeaderInfoAdd,ContainerAdditional } from "./PageInfo.style.js";
 
 const PageInfo = () => {
   return (
@@ -10,10 +10,11 @@ const PageInfo = () => {
         захищають нашу Батьківщину. В пустелі одна крапля води має значення. У
         фонді кожна гривня-це крок вирішення потреб побратимів.
       </HeaderInfo>
-
-      <h2><span>40 +  </span>  військовим допомогли</h2>
-      <h2><span>50 000 +  </span> гривень витрачено</h2>
-      <h2><span>10 +  </span> гривень витрачено</h2>
+<ContainerAdditional>
+      <HeaderInfoAdd><SpanInfo>40+  </SpanInfo>  військовим допомогли</HeaderInfoAdd>
+      <HeaderInfoAdd><SpanInfo>50000+  </SpanInfo> гривень витрачено</HeaderInfoAdd>
+      <HeaderInfoAdd><SpanInfo>10+  </SpanInfo> залучено спеціалістів</HeaderInfoAdd>
+      </ContainerAdditional>
     </ContainerInfo>
   );
 };
