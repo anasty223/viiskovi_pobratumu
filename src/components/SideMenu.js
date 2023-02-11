@@ -80,24 +80,24 @@ SideMenu.propTypes = {
 SideMenu.defaultProps = {
   children: (
     <>
-      <SuperLink to="/home">
+      <SuperLink to="/">
         <HeaderNav>
      
           <SpanNav>Головна</SpanNav>
         </HeaderNav>
       </SuperLink>
 
-      <SuperLink to="/projects">
+      <SuperLink to="/aboutUs">
         <HeaderNav>
    
-          <SpanNav>Projects</SpanNav>
+          <SpanNav>Про нас</SpanNav>
         </HeaderNav>
       </SuperLink>
 
-      <SuperLink to="/education">
+      <SuperLink to="/help">
         <HeaderNav>
     
-          <SpanNav>Education</SpanNav>
+          <SpanNav>Допомога</SpanNav>
         </HeaderNav>
       </SuperLink>
 

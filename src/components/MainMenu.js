@@ -4,7 +4,7 @@ import useOnClickOutside from "../hooks/onClickOutside";
 import { MenuContext } from "../context/navState";
 import HamburgerButton from "./HamburgerButton";
 import { SideMenu } from "./SideMenu";
-import pngtreeshakelogo  from "../images/pngtreeshakelogo.png"
+import logo3  from "../images/logo3.png"
 import callback  from "../images/callback@2x.png"
 
 const Navbar = styled.div`
@@ -48,6 +48,7 @@ const HeaderLogo=styled.h3`
 font-size:8px;
 font-family: 'Tenor Sans';
 font-weight:100;
+color:#D8D8D8;
 `
 const Callback=styled.img`
 margin-left:auto;`
@@ -79,7 +80,7 @@ const MainMenu = () => {
         <HamburgerButton />
         
        <ContainerLogo> 
-        <Logo src={pngtreeshakelogo} width="55px" alt="logo"/>
+        <Logo src={logo3} width="55px" alt="logo"/>
         <HeaderLogo>Військові побратими</HeaderLogo>
         </ContainerLogo>
        

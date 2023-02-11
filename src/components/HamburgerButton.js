@@ -27,9 +27,9 @@ const MenuButton = styled.button`
       width: 21px;
     }
 
-  //   span:nth-of-type(3) {
-  //     width: 11px;
-  //   }
+    span:nth-of-type(3) {
+      width: 11px;
+    }
   }
 
   &.active {
