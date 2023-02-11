@@ -3,20 +3,22 @@ import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 import styled, { css } from "styled-components";
 import { MenuContext } from "../context/navState";
+import { AiOutlineDoubleRight } from "react-icons/ai";
 
 const Menu = styled.nav`
   position: absolute;
   left: 0px;
   z-index: 293;
   display: block;
-  width: 240px;
-  height: 100vh;
+  width: 315px;
+height: 1500px;
   max-width: 100%;
   margin-top: 0px;
   padding-right: 0px;
   align-items: stretch;
   background-color: #363348;
-  // border-bottom-right-radius: 120px;
+display: flex;
+flex-direction:column;
 
   transform: translateX(-120%);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -25,10 +27,12 @@ const Menu = styled.nav`
     props.open &&
     css`
       transform: translateX(0);
+      
     `}
 
   @media (min-width: 1100px) {
     transform: translateX(0%);
+
   } ;
 `;
 
@@ -83,7 +87,8 @@ SideMenu.defaultProps = {
       <SuperLink to="/">
         <HeaderNav>
      
-          <SpanNav>Головна</SpanNav>
+          <SpanNav>Головна </SpanNav>
+          
         </HeaderNav>
       </SuperLink>
 
